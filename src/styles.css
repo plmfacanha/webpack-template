@@ -1,17 +1,4 @@
 /* =========================
-   FONTS
-   ========================= */
-
-@font-face {
-  font-family: "WF Visual Sans";
-  src: url("https://dhygzobemt712.cloudfront.net/Fonts/VF/WFVisualSansVF.woff2")
-    format("woff2");
-  font-weight: 100 900;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* =========================
    ROOT VARIABLES
    ========================= */
 
