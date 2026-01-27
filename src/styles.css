@@ -3,21 +3,21 @@
    ========================= */
 
 :root {
-  /* Typography */
+  /* Font */
   --font-main:
     Helvetica, Arial, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     sans-serif;
 
-  /* Color Palette */
-  --color-primary: #133c55;
-  --color-secondary: #386fa4;
-  --color-accent: #59a5d8;
-  --color-light: #84d2f6;
-  --color-bg: #91e5f6;
+  /* New Color Palette */
+  --color-dark: #090909; /* very dark (primary text) */
+  --color-muted: #4b5043; /* secondary / subtle text */
+  --color-calm: #9bc4bc; /* soft highlight */
+  --color-light: #d3ffe9; /* very light / background */
+  --color-accent: #8ddbe0; /* bright accent */
 
   /* Defaults */
-  --text-color: var(--color-primary);
-  --background-color: var(--color-bg);
+  --text-color: var(--color-dark);
+  --background-color: var(--color-light);
 
   /* Layout */
   --max-width: 1100px;
