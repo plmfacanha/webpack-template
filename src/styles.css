@@ -1,10 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
 /* =========================
    ROOT VARIABLES
    ========================= */
 
 :root {
   /* Font */
-  --font-main: Helvetica, sans-serif;
+  --font-main: "Roboto", sans-serif;
   --text-size-large: 1.5rem;
   --text-size-small: 0.875rem;
 
