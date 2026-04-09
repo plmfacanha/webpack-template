@@ -60,7 +60,7 @@ body {
   max-width: var(--max-width);
   margin: 0 auto;
   padding: var(--spacing);
-  border: 2px solid var(--color-muted);
+  border: 2px solid var(--color-dark);
 }
 
 /* =========================
