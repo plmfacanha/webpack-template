@@ -6,8 +6,9 @@
 :root {
   /* Font */
   --font-main: "Inter", sans-serif;
-  --text-size-large: 1.5rem;
   --text-size-small: 0.875rem;
+  --text-size-regular: 1rem;
+  --text-size-large: 1.5rem;
 
   /* Colors */
   --primary-dark: #14080e;
@@ -40,7 +41,7 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: var(--text-size-regular);
 }
 
 body {
@@ -61,6 +62,10 @@ body {
 header {
   background-color: var(--primary-dark);
   padding: var(--spacing);
+}
+
+h1 {
+  font-size: var(--text-size-large);
 }
 
 /* =========================
