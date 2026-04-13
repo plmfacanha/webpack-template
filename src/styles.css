@@ -12,6 +12,7 @@
   /* Colors */
   --primary-dark: #14080E;
   --primary-light: #ffffff;
+
   --color-muted: #49475B;
   --color-calm: #799496;
   --color-light: #ACC196;
@@ -53,8 +54,7 @@ body {
 /* =========================
    CLASSSES
    ========================= */
-/* .github-footer {
-} */
+
 
 /* =========================
    SEMANTIC LAYOUT
