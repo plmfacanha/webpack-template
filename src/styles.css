@@ -10,13 +10,13 @@
   --text-size-small: 0.875rem;
 
   /* Colors */
-  --primary-dark: #14080E;
+  --primary-dark: #14080e;
   --primary-light: #ffffff;
 
-  --color-muted: #49475B;
+  --color-muted: #49475b;
   --color-calm: #799496;
-  --color-light: #ACC196;
-  --color-accent: #E9EB9E;
+  --color-light: #acc196;
+  --color-accent: #e9eb9e;
 
   /* Defaults */
   --text-color: var(--primary-dark);
@@ -55,20 +55,17 @@ body {
    CLASSSES
    ========================= */
 
-
 /* =========================
-   SEMANTIC LAYOUT
+   HEADER
    ========================= */
-
-footer,
-form {
+header {
+  background-color: var(--primary-dark);
   padding: var(--spacing);
 }
 
-header {
-  background-color: var(--primary-dark);
-  padding: var(--spacing)
-}
+/* =========================
+MAIN
+========================= */
 
 main {
   display: flex;
@@ -128,10 +125,16 @@ button,
 textarea,
 select {
   font: inherit;
+  outline: none;
 }
 
 button {
   cursor: pointer;
+}
+
+form,
+footer {
+  padding: var(--spacing);
 }
 
 footer {
@@ -139,6 +142,6 @@ footer {
   justify-content: center;
   gap: 0.5rem;
 
-  background-color: var(--primary-dark);
+  background-color: var(--background-color);
   border-top: 1px solid var(--primary-light);
 }
