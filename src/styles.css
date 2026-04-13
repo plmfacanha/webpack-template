@@ -57,23 +57,6 @@ body {
 } */
 
 /* =========================
-   WRAPPER (STICKY FOOTER)
-   ========================= */
-
-#wrapper {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  max-width: var(--max-width);
-  margin: 0 auto;
-  /* padding: var(--spacing); */
-  /* box-shadow:
-    -3px 0 2px var(--primary-light),
-    3px 0 2px var(--primary-light); */
-  background-color: var(--color-calm);
-}
-
-/* =========================
    SEMANTIC LAYOUT
    ========================= */
 
