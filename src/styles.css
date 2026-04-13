@@ -25,7 +25,9 @@
 
   /* Layout */
   --max-width: 1100px;
-  --spacing: 1rem;
+  --small-spacing: 0.5rem;
+  --normal-spacing: 1rem;
+  --large-spacing: 1.5rem;
 }
 
 /* =========================
@@ -49,7 +51,7 @@ body {
   font-family: var(--font-main);
   color: var(--text-color);
   background-color: var(--background-color);
-  line-height: 1.5;
+  line-height: var(--large-spacing);
 }
 
 /* =========================
@@ -95,7 +97,7 @@ h5,
 h6 {
   color: var(--primary-light);
   font-weight: 600;
-  line-height: 1.2;
+  line-height: var(--large-spacing);
 }
 
 /* =========================
@@ -145,7 +147,7 @@ footer {
 footer {
   display: flex;
   justify-content: center;
-  gap: 0.5rem;
+  gap: var(--small-spacing);
 
   background-color: var(--background-color);
   border-top: 1px solid var(--primary-light);
