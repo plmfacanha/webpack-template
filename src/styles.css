@@ -7,8 +7,8 @@
   /* Font */
   --font-main: "Inter", sans-serif;
   --text-size-small: 0.875rem;
-  --text-size-regular: 1rem;
-  --text-size-large: 1.5rem;
+  --text-size-normal: 1rem;
+  --text-size-large: 2rem;
 
   /* Colors */
   --primary-dark: #14080e;
@@ -44,10 +44,12 @@
 }
 
 html {
-  font-size: var(--text-size-regular);
+  font-size: var(--text-size-normal);
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
   font-family: var(--font-main);
   color: var(--text-color);
@@ -69,6 +71,7 @@ header {
 
 h1 {
   font-size: var(--text-size-large);
+  text-align: center;
 }
 
 /* =========================
@@ -76,10 +79,8 @@ MAIN
 ========================= */
 
 main {
-  display: flex;
-  flex-direction: column;
-  gap: var(--spacing);
-  height: 80vh;
+  gap: var(--normal-spacing);
+  flex: 1;
   background-color: var(--color-muted);
 }
 
@@ -142,7 +143,7 @@ button {
 
 form,
 footer {
-  padding: var(--spacing);
+  padding: var(--normal-spacing);
 }
 
 footer {
