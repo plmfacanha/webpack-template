@@ -28,6 +28,7 @@
   --small-spacing: 0.5rem;
   --normal-spacing: 1rem;
   --large-spacing: 1.5rem;
+  --xlarge-spacing: 2rem;
 }
 
 /* =========================
@@ -63,7 +64,7 @@ body {
    ========================= */
 header {
   background-color: var(--primary-dark);
-  padding: var(--spacing);
+  padding: var(--xlarge-spacing);
 }
 
 h1 {
