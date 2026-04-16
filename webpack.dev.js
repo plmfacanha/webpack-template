@@ -23,16 +23,11 @@ module.exports = {
   ],
 
   devServer: {
-    mode: "development",
-
-    devServer: {
-      static: "./dist", // folder to serve
-      open: true, // auto opens browser
-      hot: true, // enables hot reload
-      liveReload: true, // fallback reload
-      port: 3000, // optional
-    },
-
+    static: "./dist", // folder to serve
+    open: true, // auto opens browser
+    hot: true, // enables hot reload
+    liveReload: true, // fallback reload
+    port: 3000, // optional
     client: {
       overlay: false,
     },
